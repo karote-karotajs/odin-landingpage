@@ -1,0 +1,1 @@
+This is a landing page project, made for educational purposes with The Odin Project. This project is a test of knowledge in HTML and CSS.
