@@ -94,6 +94,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
 }
 
 .infoheader {
@@ -105,10 +107,62 @@ ul {
 
 .image-section {
     display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 24px;
 }
 
 .image-container {
-    display:
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
 }
+
+.image-border {
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    flex-shrink: 0;
+}
+.image-subtext {
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.quote {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote .subtext {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+
 
