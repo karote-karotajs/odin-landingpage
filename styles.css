@@ -38,6 +38,7 @@ ul {
     max-width: 1000px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 24px;
 }
 
 .header {
@@ -55,5 +56,59 @@ ul {
 
 .links {
     display: flex;
+}
+
+.heroimage img {
+    width: 400px;
+}
+
+.herotext {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 48px;
+    gap: 48px;
+}
+
+.herotext .text {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.herotext .subtext {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.herotext button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: white;
+    font-weight: 600
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoheader {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    display:
 }
 
